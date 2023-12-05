@@ -9,7 +9,7 @@
 int _putchar(char c);
 int _printf(const char *format, ...);
 int print_c(va_list value);
-int print_S(va_list value);
+int print_s(va_list value);
 int _strlen(const char *s);
 int print_percent(void);
 
