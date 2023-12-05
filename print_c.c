@@ -8,6 +8,6 @@
 int print_c(va_list value)
 {
 char c;
-c = var_arg(value, int);
+c = va_arg(value, int);
 return (_putchar(c));
 }

@@ -18,5 +18,5 @@ _putchar(*s);
 s++;
 length++;
 }
-return length
+return (length);
 }
