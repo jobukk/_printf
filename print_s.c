@@ -11,7 +11,7 @@ int print_s(va_list value)
 char *s = va_arg(value, char *);
 int length = 0;
 if (s == NULL)
-	s = ("null");
+	s = "(null)";
 while (*s)
 {
 _putchar(*s);
