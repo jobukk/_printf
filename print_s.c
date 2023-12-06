@@ -16,6 +16,9 @@ while (*s)
 {
 _putchar(*s);
 s++;
+}
+while (s[length] != '\0')
+{
 length++;
 }
 return (length);
