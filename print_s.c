@@ -12,6 +12,10 @@ char *s = va_arg(value, char *);
 int length = 0;
 if (s == NULL)
 	s = "(null)";
+	while (*s)
+	{
+	length++;
+	}
 while (*s)
 {
 _putchar(*s);
