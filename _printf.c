@@ -1,4 +1,11 @@
 #include "main.h"
+/**
+ *_printf - select a specific function
+ *
+ *@format: identifier
+ *
+ *Return: length of string
+ */
 
 int _printf(const char *format, ...)
 {
@@ -27,7 +34,7 @@ switch (format[i])
 		_putchar('%');
 		_putchar(format[i]);
 		print_char += 2;
-		break;	
+		break;
 }
 
 }
@@ -38,5 +45,5 @@ print_char++;
 }
 }
 va_end(args);
-return print_char;
+return (print_char);
 }
